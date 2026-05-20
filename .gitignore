@@ -1,0 +1,17 @@
+node_modules/
+dist/
+data/
+*.db
+.env
+
+# Nested dependencies/build artifacts
+**/node_modules/
+**/dist/
+
+# Environment files
+**/.env
+
+# SQLite runtime files
+**/*.db
+**/*.db-shm
+**/*.db-wal
